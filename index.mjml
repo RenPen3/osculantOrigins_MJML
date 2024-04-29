@@ -1,14 +1,85 @@
 <mjml>
+  <mj-head>
+    <mj-font name="fontawesome" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Poppins" />
+      <mj-class name="btn-1" background-color="rgb(201,179,217);background: linear-gradient(180deg, rgba(201,179,217,1) 0%, rgba(151,114,198,1) 100%);" />
+    </mj-attributes>
+
+    <mj-style>
+      @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </mj-style>
+
+    <mj-style inline="inline">
+      .banner-1 {
+        color: #9F7CC9;
+      }
+
+      .view {
+        color: rgb(201, 179, 217) !important;
+      }
+    </mj-style>
+
+  </mj-head>
   <mj-body background-color="#222222">
+    <!-- header -->
     <mj-section background-color="#FFFFFF" padding="0">
       <mj-column>
-        <mj-text color="#393939" align="center">
+        <mj-text color="#393939" align="center" font-size="12px" padding="0">
           <p>
             Trouble viewing this email?
-            <a href="#" color="red"><span>View In Browser</span></a>
+            <a href="#"><span class="view">View In Browser</span></a>
           </p>
         </mj-text>
       </mj-column>
     </mj-section>
+
+    <!-- Hero -->
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/fxPQ6Jp/osculent-Origins.jpg" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Content & Button-->
+    <mj-section background-color="#FFFFFF">
+      <mj-column>
+        <mj-text font-weight="500" font-size="18px" line-height="1.5">
+          <p>
+            Step into a realm where beauty meets brilliance, where every
+            brushstroke and skincare secret unveils the masterpiece within –
+            welcome to Osculant Origins, where your beauty journey begins anew.
+          </p>
+        </mj-text>
+        <mj-button href="#" mj-class="btn-1" width="100%" border-radius="50px" font-size="18px">Shop Now</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Image 1 -->
+    <mj-section background-color="#FFFFFF">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/6mvWTv5/coms-image-2.jpg" padding="0" />
+
+        <mj-text font-weight="900" font-size="60px" line-height="68px">
+          Ready to <span class="banner-1">elevate your beauty?</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Start of Product Section -->
+    <mj-section background-color="#FFFFFF" padding="24px">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/FXWDHNz/oo-image1.jpg" padding="0" />
+      </mj-column>
+
+      <mj-column>
+        <mj-text>
+          <small>TressTonic™ Revitalizing Hair Elixir</small>
+          <h3>Signature Hairstyling</h3>
+          <p>Treat yourself to a rejuvenating haircut or style transformation with one of our talented hairstylists.</p>
+          <mj-button href="#">Shop Now</mj-button>
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
-  <mjml>
+</mjml>
