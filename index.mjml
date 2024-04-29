@@ -1,0 +1,14 @@
+<mjml>
+  <mj-body background-color="#222222">
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column>
+        <mj-text color="#393939" align="center">
+          <p>
+            Trouble viewing this email?
+            <a href="#" color="red"><span>View In Browser</span></a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+  <mjml>
