@@ -2,9 +2,11 @@
   <mj-head>
     <mj-font name="fontawesome" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" />
     <mj-attributes>
+      <mj-social-element background-color="#393939" padding="8px 16px" />
+      <mj-section background-color="#FFFFFF" />
       <mj-class name="productImg" align="left" />
-      <mj-all font-family="Poppins" />
-      <mj-class name="btn-1" background-color="rgb(201,179,217);background: linear-gradient(180deg, rgba(201,179,217,1) 0%, rgba(151,114,198,1) 100%);" />
+      <mj-all font-family="Poppins" color="#393939" />
+      <mj-class name="btn-1" color="white" background-color="rgb(201,179,217);background: linear-gradient(180deg, rgba(201,179,217,1) 0%, rgba(151,114,198,1) 100%);" />
     </mj-attributes>
 
     <mj-style>
@@ -24,7 +26,7 @@
   </mj-head>
   <mj-body background-color="#222222">
     <!-- header -->
-    <mj-section background-color="#FFFFFF" padding="0">
+    <mj-section padding="0">
       <mj-column>
         <mj-text color="#393939" align="center" font-size="12px" padding="0">
           <p>
@@ -36,14 +38,14 @@
     </mj-section>
 
     <!-- Hero -->
-    <mj-section background-color="#FFFFFF" padding="0">
+    <mj-section padding="0">
       <mj-column>
         <mj-image src="https://i.ibb.co/fxPQ6Jp/osculent-Origins.jpg" padding="0" />
       </mj-column>
     </mj-section>
 
     <!-- Content & Button-->
-    <mj-section background-color="#FFFFFF">
+    <mj-section>
       <mj-column>
         <mj-text font-weight="500" font-size="18px" line-height="1.5">
           <p>
@@ -52,12 +54,12 @@
             welcome to Osculant Origins, where your beauty journey begins anew.
           </p>
         </mj-text>
-        <mj-button href="#" mj-class="btn-1" width="100%" border-radius="50px" font-size="18px">Shop Now</mj-button>
+        <mj-button href="#" mj-class="btn-1" width="100%" border-radius="50px" font-size="18px" text-transform="uppercase">Shop Now</mj-button>
       </mj-column>
     </mj-section>
 
     <!-- Image 1 -->
-    <mj-section background-color="#FFFFFF">
+    <mj-section>
       <mj-column>
         <mj-image mj-class="productImg" src="https://i.ibb.co/6mvWTv5/coms-image-2.jpg" padding="0 0 24px 0" />
 
@@ -69,84 +71,164 @@
 
     <!-- Start of Product Section -->
     <!-- Product 1 -->
-    <mj-section background-color="#FFFFFF">
+    <mj-section>
       <mj-column>
         <mj-image align="left" src="https://i.ibb.co/FXWDHNz/oo-image1.jpg" />
       </mj-column>
-
       <mj-column>
-        <mj-text>
-          <small>TressTonic™ Revitalizing Hair Elixir</small>
-          <h3>Signature Hairstyling</h3>
-          <p>Treat yourself to a rejuvenating haircut or style transformation with one of our talented hairstylists.</p>
-          <mj-button href="#">Shop Now</mj-button>
+        <mj-text padding-bottom="0">
+          TressTonic™ Revitalizing Hair Elixir
         </mj-text>
+        <mj-text font-size="22px" font-weight="600">
+          Signature Hairstyling
+        </mj-text>
+        <mj-text font-size="18px" line-height="1.5">
+          Treat yourself to a rejuvenating haircut or style transformation with one of our talented hairstylists.
+        </mj-text>
+        <mj-button align="left" padding-left="0" background-color="#FFFFFF" color="#9C79C8" font-size="18px" font-weight="600" href="#">Shop Now</mj-button>
       </mj-column>
     </mj-section>
 
     <!-- Product 2 -->
-    <mj-section background-color="#FFFFFF">
+    <mj-section>
       <mj-column>
         <mj-image align="left" src="https://i.ibb.co/nBMkjyN/oo-image3.jpg" />
       </mj-column>
 
       <mj-column>
-        <mj-text>
-          <small>TressTonic™ Revitalizing Hair Elixir</small>
-          <h3>Signature Hairstyling</h3>
-          <p>Treat yourself to a rejuvenating haircut or style transformation with one of our talented hairstylists.</p>
-          <mj-button href="#">Shop Now</mj-button>
+        <mj-text padding-bottom="0">
+          GlowGleam™ Radiance-Boosting Makeup Primer
         </mj-text>
+        <mj-text font-size="22px" font-weight="600">
+          Glamorous Makeup
+        </mj-text>
+        <mj-text font-size="18px" line-height="1.5">
+          Whether you're attending a special event or simply want to pamper yourself, our professional makeup artists will create a flawless look that enhances your natural beauty.
+        </mj-text>
+        <mj-button align="left" padding-left="0" background-color="#FFFFFF" color="#9C79C8" font-size="18px" font-weight="600" href="#">Shop Now</mj-button>
       </mj-column>
     </mj-section>
 
     <!-- Product 3 -->
-    <mj-section background-color="#FFFFFF">
+    <mj-section>
       <mj-column>
         <mj-image align="left" src="https://i.ibb.co/nwdtsZh/oo-image2.jpg" />
       </mj-column>
 
       <mj-column>
-        <mj-text>
-          <small>TressTonic™ Revitalizing Hair Elixir</small>
-          <h3>Signature Hairstyling</h3>
-          <p>Treat yourself to a rejuvenating haircut or style transformation with one of our talented hairstylists.</p>
-          <mj-button href="#">Shop Now</mj-button>
+        <mj-text padding-bottom="0">
+          LuminaLux™ Rejuvenating Serum
         </mj-text>
+        <mj-text font-size="22px" font-weight="600">
+          Customized Skincare
+        </mj-text>
+        <mj-text font-size="18px" line-height="1.5">
+          Let our expert estheticians analyze your skin and recommend a personalized skincare regimen tailored to your unique needs.
+        </mj-text>
+        <mj-button align="left" padding-left="0" background-color="#FFFFFF" color="#9C79C8" font-size="18px" font-weight="600" href="#">Shop Now</mj-button>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#FFFFFF">
+    <!-- banner 2 -->
+    <mj-section padding-bottom="4px">
       <mj-column>
-        <mj-text font-weight="900" font-size="55px" line-height="60px">
+        <mj-text font-weight="900" font-size="48px" line-height="60px">
           Experience Beauty Unveiled
         </mj-text>
         <mj-image align="left" src="https://i.ibb.co/qFntRJ7/oo-image6.jpg" />
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#FFFFFF">
+    <!-- Images side by side -->
+    <mj-section padding="0">
       <mj-group>
-        <mj-column>
-          <mj-image align="left" src="https://i.ibb.co/6PPvyp8/oo-image-makup.jpg" />
+        <mj-column padding-left="24px">
+          <mj-image padding="0" align="left" src="https://i.ibb.co/6PPvyp8/oo-image-makup.jpg" />
         </mj-column>
-        <mj-column>
-          <mj-image align="left" src="https://i.ibb.co/3YTyTqd/oo-image-makeup2.jpg" />
+        <mj-column padding="0">
+          <mj-image padding="0 12px" align="center" src="https://i.ibb.co/3YTyTqd/oo-image-makeup2.jpg" />
         </mj-column>
-        <mj-column>
-          <mj-image align="left" src="https://i.ibb.co/ZVPKB20/oo-image-makeup3.jpg" />
+        <mj-column padding-right="24px">
+          <mj-image padding="0" align="right" src="https://i.ibb.co/ZVPKB20/oo-image-makeup3.jpg" />
         </mj-column>
       </mj-group>
     </mj-section>
 
-
-    <mj-section background-color="#FFFFFF">
+    <!-- Free Trial Section -->
+    <mj-section>
       <mj-column>
-        <mj-text font-weight="500" font-size="18px" line-height="1.5">
+        <mj-text font-weight="500" font-size="18px" line-height="1.5" padding-bottom="32px">
           Are you ready to embark on a journey of self-discovery and radiance? At Osculant Origins, we believe that beauty begins with embracing your unique essence.<br><br>That's why we're thrilled to invite you to experience the magic of Osculant Origins with a complimentary trial!
         </mj-text>
-        <mj-button href="#" mj-class="btn-1" width="100%" border-radius="50px" font-size="18px">Shop Now</mj-button>
+        <mj-button href="#" background-color="#FFFFFF" border="2px solid #393939" color="#393939" width="100%" border-radius="50px" font-size="18px" text-transform="uppercase" padding-bottom="48px">Try A Free Trial</mj-button>
       </mj-column>
     </mj-section>
+
+    <!-- Footer / Logo & Brand Name -->
+    <mj-section background-color="rgb(201,179,217);background: linear-gradient(180deg, rgba(201,179,217,1) 0%, rgba(151,114,198,1) 100%);">
+      <mj-column>
+        <mj-image width="60px" src="https://i.ibb.co/sFkJrkR/Logo.png" alt="image" />
+        <mj-text align="center">
+          Osculant Origin
+        </mj-text>
+    </mj-section>
+    <!-- Contact -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-weight="600">
+          Contact Information
+        </mj-text>
+        <mj-text align="center" line-height="2">
+          Osculant Origins<br>info@osculantorigins.com<br>555-555-5555<br>www.osculantorigins.com
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Address -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-weight="600">
+          Address
+        </mj-text>
+        <mj-text align="center" line-height="2">
+          Osculant Origins Beauty Studio<br>123 Blossom Boulevard<br>Springfield, Blossom County<br>Fictitiousland, FL 12345
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Social Icons -->
+    <mj-section>
+      <mj-column>
+        <mj-social font-size="15px" border-radius="50px" icon-size="40px" mode="horizontal">
+          <mj-social-element name="instagram" href="#"></mj-social-element>
+          <mj-social-element name="facebook" href="#"></mj-social-element>
+          <mj-social-element name="youtube" href="#"></mj-social-element>
+          <mj-social-element name="twitter" href="#"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Unsubscribe -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center">
+          Your are receiving this email because you signed up
+        </mj-text>
+        <mj-text align="center">
+          <a href="#">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Rights Reserved -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center">
+          Copyright&copy; 2024 OpulentOrigins
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
   </mj-body>
 </mjml>
