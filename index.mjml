@@ -115,5 +115,38 @@
         </mj-text>
       </mj-column>
     </mj-section>
+
+    <mj-section background-color="#FFFFFF">
+      <mj-column>
+        <mj-text font-weight="900" font-size="55px" line-height="60px">
+          Experience Beauty Unveiled
+        </mj-text>
+        <mj-image align="left" src="https://i.ibb.co/qFntRJ7/oo-image6.jpg" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF">
+      <mj-group>
+        <mj-column>
+          <mj-image align="left" src="https://i.ibb.co/6PPvyp8/oo-image-makup.jpg" />
+        </mj-column>
+        <mj-column>
+          <mj-image align="left" src="https://i.ibb.co/3YTyTqd/oo-image-makeup2.jpg" />
+        </mj-column>
+        <mj-column>
+          <mj-image align="left" src="https://i.ibb.co/ZVPKB20/oo-image-makeup3.jpg" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+
+    <mj-section background-color="#FFFFFF">
+      <mj-column>
+        <mj-text font-weight="500" font-size="18px" line-height="1.5">
+          Are you ready to embark on a journey of self-discovery and radiance? At Osculant Origins, we believe that beauty begins with embracing your unique essence.<br><br>That's why we're thrilled to invite you to experience the magic of Osculant Origins with a complimentary trial!
+        </mj-text>
+        <mj-button href="#" mj-class="btn-1" width="100%" border-radius="50px" font-size="18px">Shop Now</mj-button>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
