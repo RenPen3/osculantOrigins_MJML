@@ -21,6 +21,11 @@
       .view {
         color: rgb(201, 179, 217) !important;
       }
+
+      .unsub {
+        color: #393939;
+        text-underline-offset: 2px;
+      }
     </mj-style>
 
   </mj-head>
@@ -194,8 +199,8 @@
           <mj-social-element name="twitter" href="#"></mj-social-element>
         </mj-social>
         <!-- Unsubscribe -->
-        <mj-text align="center" font-size="16px">
-          Your are receiving this email because you signed up<br><a href="#">Unsubscribe</a>
+        <mj-text align="center" font-size="16px" line-height="1.5">
+          Your are receiving this email because you signed up<br><a href="#" class="unsub">Unsubscribe</a>
         </mj-text>
         <mj-spacer height="60px" />
         <!-- Rights Reserved -->
