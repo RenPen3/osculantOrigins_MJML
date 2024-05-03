@@ -28,11 +28,9 @@
     <!-- header -->
     <mj-section padding="0">
       <mj-column>
-        <mj-text color="#393939" align="center" font-size="12px" padding="0">
-          <p>
-            Trouble viewing this email?
-            <a href="#"><span class="view">View In Browser</span></a>
-          </p>
+        <mj-text color="#393939" align="center" font-size="12px" padding="6px 0">
+          Trouble viewing this email?
+          <a href="#"><span class="view">View In Browser</span></a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -160,70 +158,48 @@
         <mj-text font-weight="500" font-size="18px" line-height="1.5" padding-bottom="32px">
           Are you ready to embark on a journey of self-discovery and radiance? At Osculant Origins, we believe that beauty begins with embracing your unique essence.<br><br>That's why we're thrilled to invite you to experience the magic of Osculant Origins with a complimentary trial!
         </mj-text>
-        <mj-button href="#" background-color="#FFFFFF" border="2px solid #393939" color="#393939" width="100%" border-radius="50px" font-size="18px" text-transform="uppercase" padding-bottom="48px">Try A Free Trial</mj-button>
+        <mj-button href="#" background-color="#FFFFFF" border="2px solid #393939" color="#393939" width="100%" border-radius="50px" font-size="18px" text-transform="uppercase" padding-bottom="60px">Try A Free Trial</mj-button>
       </mj-column>
     </mj-section>
 
     <!-- Footer / Logo & Brand Name -->
-    <mj-section background-color="rgb(201,179,217);background: linear-gradient(180deg, rgba(201,179,217,1) 0%, rgba(151,114,198,1) 100%);">
+    <mj-section background-color="rgb(201,179,217);background: linear-gradient(230deg, rgba(201,179,217,1) 0%, rgba(151,114,198,1) 100%);" border-bottom="24px">
       <mj-column>
         <mj-image width="60px" src="https://i.ibb.co/sFkJrkR/Logo.png" alt="image" />
-        <mj-text align="center">
+        <mj-text align="center" font-size="26px">
           Osculant Origin
         </mj-text>
-    </mj-section>
-    <!-- Contact -->
-    <mj-section>
-      <mj-column>
-        <mj-text align="center" font-weight="600">
-          Contact Information
+        <mj-spacer height="30px" />
+        <!-- Contact -->
+        <mj-text align="center" font-size="18px" font-weight="600">
+          Contact
         </mj-text>
-        <mj-text align="center" line-height="2">
+        <mj-text align="center" font-size="16px" line-height="1.5">
           Osculant Origins<br>info@osculantorigins.com<br>555-555-5555<br>www.osculantorigins.com
         </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- Address -->
-    <mj-section>
-      <mj-column>
-        <mj-text align="center" font-weight="600">
+        <mj-spacer height="30px" />
+        <!-- Address -->
+        <mj-text align="center" font-size="18px" font-weight="600">
           Address
         </mj-text>
-        <mj-text align="center" line-height="2">
+        <mj-text align="center" font-size="16px" line-height="1.5">
           Osculant Origins Beauty Studio<br>123 Blossom Boulevard<br>Springfield, Blossom County<br>Fictitiousland, FL 12345
         </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- Social Icons -->
-    <mj-section>
-      <mj-column>
+        <mj-spacer height="20px" />
+        <!-- Social Icons -->
         <mj-social font-size="15px" border-radius="50px" icon-size="40px" mode="horizontal">
           <mj-social-element name="instagram" href="#"></mj-social-element>
           <mj-social-element name="facebook" href="#"></mj-social-element>
           <mj-social-element name="youtube" href="#"></mj-social-element>
           <mj-social-element name="twitter" href="#"></mj-social-element>
         </mj-social>
-      </mj-column>
-    </mj-section>
-
-    <!-- Unsubscribe -->
-    <mj-section>
-      <mj-column>
-        <mj-text align="center">
-          Your are receiving this email because you signed up
+        <!-- Unsubscribe -->
+        <mj-text align="center" font-size="16px">
+          Your are receiving this email because you signed up<br><a href="#">Unsubscribe</a>
         </mj-text>
-        <mj-text align="center">
-          <a href="#">Unsubscribe</a>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- Rights Reserved -->
-    <mj-section>
-      <mj-column>
-        <mj-text align="center">
+        <mj-spacer height="60px" />
+        <!-- Rights Reserved -->
+        <mj-text align="center" font-size="16px">
           Copyright&copy; 2024 OpulentOrigins
         </mj-text>
       </mj-column>
