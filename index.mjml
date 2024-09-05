@@ -30,7 +30,7 @@
     </mj-style>
 
   </mj-head>
-  <mj-body background-color="#EFEFEF">
+  <mj-body background-color="#D3D3D3">
 
     <!-- header -->
     <mj-section padding="0">
