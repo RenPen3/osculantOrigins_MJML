@@ -30,7 +30,8 @@
     </mj-style>
 
   </mj-head>
-  <mj-body background-color="#A27BCE">
+  <mj-body background-color="#222222">
+
     <!-- header -->
     <mj-section padding="0">
       <mj-column>
@@ -44,7 +45,7 @@
     <!-- Hero -->
     <mj-section padding="0">
       <mj-column>
-        <mj-image src="https://i.ibb.co/fxPQ6Jp/osculent-Origins.jpg" padding="0" />
+        <mj-image src="https://i.ibb.co/CBSzMgq/osculent-Origins-Opt.jpg" padding="0" />
       </mj-column>
     </mj-section>
 
